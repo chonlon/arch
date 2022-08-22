@@ -1,0 +1,15 @@
+*/**
+!alacritty/**
+!btop/**
+!bat/**
+!fontconfig/**
+!htop/**
+!KDE/**
+!kde.org/**
+!kdedefaults/**
+!kitty/**
+!latte/**
+!picom/**
+!ranger/**
+!rofi/**
+!zellij/**

@@ -1,0 +1,40 @@
+[$Version]
+update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
+
+[General]
+loginMode=emptySession
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=106c6f6e0000164826432800000010120006
+clientId2=106c6f6e0000164826432800000010120008
+clientId3=106c6f6e0000164826432900000010120009
+clientId4=106c6f6e0000164826432900000010120011
+clientId5=106c6f6e0000164826433200000010120013
+count=5
+discardCommand5[$e]=rm,$HOME/.config/session/konsole_106c6f6e0000164826433200000010120013_1648269566_899385
+program1=/usr/bin/copyq
+program2=/usr/lib/DiscoverNotifier
+program3=/usr/bin/copyq
+program4=pulseaudio
+program5=/usr/bin/konsole
+restartCommand1=/usr/bin/copyq,-session,106c6f6e0000164826432800000010120006_1648269566_899351
+restartCommand2=/usr/lib/DiscoverNotifier,-session,106c6f6e0000164826432800000010120008_1648269566_899345
+restartCommand3=/usr/bin/copyq,-session,106c6f6e0000164826432900000010120009_1648269566_899346
+restartCommand4=
+restartCommand5=/usr/bin/konsole,-session,106c6f6e0000164826433200000010120013_1648269566_899385
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+restartStyleHint4=0
+restartStyleHint5=0
+userId1=lon
+userId2=lon
+userId3=lon
+userId4=lon
+userId5=lon
+
+[SubSession: 04c97744-26e1-4c12-a642-177fd8068c9a]
+count=0

@@ -1,0 +1,31 @@
+[FileDialogSize]
+HDMI-0 Height 1707x960=569
+HDMI-0 Width 1707x960=873
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/3_lon/Small-Test-Projects/config/kde-shortcut.kksrc,file:$HOME/3_lon/Small-Test-Projects/config/kde-shortcut.kksrc
+Recent URLs[$e]=file:$HOME/3_lon/Small-Test-Projects/config/,file:$HOME/3_lon/Small-Test-Projects/
+detailViewIconSize=16
+
+[MainWindow]
+HDMI-0 Height 1707x960=801
+HDMI-0 Height 2560x1440=702
+HDMI-0 Width 1707x960=1219
+HDMI-0 Width 2560x1440=1020
+HDMI-0 Window-Maximized 1707x960=true
+HDMI-0 XPosition 1707x960=485
+HDMI-0 XPosition 2560x1440=770
+HDMI-0 YPosition 1707x960=155
+HDMI-0 YPosition 2560x1440=394
+HDMI-1 XPosition 2560x1440=0
+HDMI-1 YPosition 2560x1440=28
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABMMAAAMhAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+
+[Open-with settings]
+CompletionMode=1
+History=utools
+
+[UiSettings]
+ColorScheme=Default
