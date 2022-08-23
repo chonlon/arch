@@ -15,8 +15,8 @@ kde_apps := "kwin-scripts-krohnkite-git layan-kde-git sweet-kde-git"
 
 # install pkg env, including yay, aru cn etc...
 init-pkg:
-   yay -S archlinuxcn-keyring
    sudo echo "\n\n[archlinuxcn]\nServer = https://repo.archlinuxcn.org/$arch" >> /etc/pacman.conf
+   yay -S archlinuxcn-keyring
 
 # install apps for arch
 install-apps:
@@ -32,7 +32,7 @@ init-git:
 
 # init my dotfiles env
 init-configs:
-  just -f dotfiles/Justfile
+  cd dotfiles && just copy_back
 
 init-services:
 
