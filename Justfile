@@ -10,7 +10,7 @@ user_apps := "google-chrome rofi clash-for-windows-bin copyq"
 
 code_apps := "code-bin sublime-text-4 rustup gcc cmake ninja go httpie curlie docker jetbrains-toolbox gdb "
 
-kde_apps := "kwin-scripts-krohnkite-git"
+kde_apps := "kwin-scripts-krohnkite-git layan-kde-git sweet-kde-git"
 
 
 # install pkg env, including yay, aru cn etc...
@@ -45,17 +45,37 @@ install-z4h:
 
 # setup zsh plugins and configs.
 init-zsh:
- @echo "todo"
+  just install-z4h
+  @echo "todo"
 
 # install kde apps
 init-kde:
-  yay -S {{kde_apps}}  
+  yay -S {{kde_apps}}
 
 init-docker:
+  yay -S docker
+  sudo usermod -aG docker wheel
+
+test-all:
+  gcc --version
+  cmake --version
+  docker --version
+  rustc --version
+  python --version
+  go --version
 
 # init my arch.
 init:
-    
+    just install-apps
+    just init-ssh
+    just init-git
+    just init-configs
+    just install-z4h
+    just init-zsh
+    just init-docker
+    just init-pkg
+
+    just test-all
 
 # update my arch configs.
 update:
