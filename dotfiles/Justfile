@@ -1,3 +1,5 @@
 backup:
 
 copy_back:
+  mv $HOME/.config $HOME/.config_backup
+  ln -s $PWD/configs $HOME/.config

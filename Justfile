@@ -37,11 +37,11 @@ init-configs:
 init-services:
 
 install-z4h:
-	if command -v curl >/dev/null 2>&1; then
-	  sh -c "$(curl -fsSL https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"
-	else
-	  sh -c "$(wget -O- https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)"
-	fi
+  if command -v curl >/dev/null 2>&1; then \
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)" \
+  else \
+    sh -c "$(wget -O- https://raw.githubusercontent.com/romkatv/zsh4humans/v5/install)" \
+  fi
 
 # setup zsh plugins and configs.
 init-zsh:
