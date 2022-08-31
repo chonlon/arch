@@ -3,3 +3,5 @@ backup:
 copy_back:
   mv $HOME/.config $HOME/.config_backup
   ln -s $PWD/configs $HOME/.config
+  mv $HOME/.zshrc $HOME/.zshrc_backup
+  ln -s $PWD/.z4hrc $HOME/.zshrc
