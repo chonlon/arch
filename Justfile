@@ -8,14 +8,14 @@ input := "fcitx-sogoupinyin fcitx-qt5"
 
 user_apps := "google-chrome rofi clash-for-windows-bin copyq"
 
-code_apps := "code-bin sublime-text-4 rustup gcc cmake ninja go httpie curlie docker jetbrains-toolbox gdb "
+code_apps := "visual-studio-code-bin sublime-text-4 rustup gcc cmake ninja go httpie curlie docker jetbrains-toolbox gdb "
 
 kde_apps := "kwin-scripts-krohnkite-git layan-kde-git sweet-kde-git"
 
 
 # install pkg env, including yay, aru cn etc...
 init-pkg:
-   sudo echo "\n\n[archlinuxcn]\nServer = https://repo.archlinuxcn.org/$arch" >> /etc/pacman.conf
+   sudo printf "\n\n[archlinuxcn]\nServer = https://repo.archlinuxcn.org/\$arch" >> /etc/pacman.conf
    yay -S archlinuxcn-keyring
 
 # install apps for arch
@@ -44,7 +44,8 @@ install-z4h:
 # setup zsh plugins and configs.
 init-zsh:
   just install-z4h
-  @echo "todo"
+  git clone https://github.com/paulirish/git-open.git $ZSH_CUSTOM/plugins/git-open
+  git clone https://github.com/sukkaw/zsh-proxy.git $ZSH_CUSTOM/plugins/zsh-proxy
 
 # install kde apps
 init-kde:
@@ -64,17 +65,15 @@ test-all:
 
 # init my arch.
 init:
+    just init-pkg
     just install-apps
     just init-ssh
     just init-git
     just init-configs
-    just install-z4h
     just init-zsh
     just init-docker
-    just init-pkg
 
     just test-all
 
 # update my arch configs.
 update:
-
