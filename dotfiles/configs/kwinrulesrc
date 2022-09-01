@@ -1,22 +1,65 @@
 [$Version]
 update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
 
-[2479c693-8ea6-4cd3-9f02-e81196c20e44]
-Description=Application settings for code
-clientmachine=localhost
-maximizehoriz=true
-maximizehorizrule=3
-maximizevert=true
-maximizevertrule=3
-noborder=true
-noborderrule=3
-wmclass=code
-wmclassmatch=1
-
-[95f55bbd-cba3-42be-8ee1-bd179a698ca8]
+[068e4dc8-ab04-4c53-b0ca-8cd30b57d779]
 Description=Application settings for alacritty
 clientmachine=localhost
+desktops=97da89d3-85fd-461f-be5e-8bf9b059eede
+desktopsrule=3
 fullscreen=true
 fullscreenrule=3
 wmclass=alacritty
+wmclassmatch=1
+
+[1]
+Description=Settings for copyq copyq
+above=true
+aboverule=3
+wmclass=copyq copyq
+wmclasscomplete=true
+wmclassmatch=1
+
+[3d50d8b7-dc79-493d-9918-31fe37a3bfe4]
+Description=Settings for copyq copyq
+above=true
+aboverule=3
+wmclass=copyq copyq
+wmclasscomplete=true
+wmclassmatch=1
+
+[4732d6e4-3d09-4346-b670-46cc8d652400]
+Description=Application settings for alacritty
+clientmachine=localhost
+maxsize=3840,2026
+maxsizerule=2
+wmclass=alacritty
+wmclassmatch=1
+
+[4abcb953-007c-4db1-b5e7-8135d80903b2]
+Description=Settings for systemsettings systemsettings
+wmclass=systemsettings systemsettings
+wmclasscomplete=true
+wmclassmatch=1
+
+[4deb918f-ec40-4e65-8d5d-ef37a2afc0da]
+Description=New window settings
+maxsizerule=2
+wmclassmatch=1
+
+[General]
+count=2
+rules=068e4dc8-ab04-4c53-b0ca-8cd30b57d779,1
+
+[cd0c319b-8ae0-490e-a85b-ac49b2cf5235]
+Description=jetbrains-webstorm 的应用程序设置
+clientmachine=localhost
+shortcut=Meta+Ctrl+J
+shortcutrule=3
+wmclass=jetbrains-webstorm
+wmclassmatch=1
+
+[ce660cbd-387d-4339-828d-ab3f11f61253]
+Description=Settings for obsidian obsidian
+wmclass=obsidian obsidian
+wmclasscomplete=true
 wmclassmatch=1

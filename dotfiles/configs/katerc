@@ -11,6 +11,7 @@ Show Url Nav Bar=true
 [KTextEditor Document]
 Allow End of Line Detection=true
 Auto Detect Indent=true
+Auto Reload If State Is In Version Control=true
 Auto Save=false
 Auto Save Interval=0
 Auto Save On Focus Out=false
@@ -55,7 +56,7 @@ Fallback Encoding=ISO 8859-15
 Animate Bracket Matching=false
 Auto Color Theme Selection=true
 Color Theme=Breeze Dark
-Font=Hack,10,-1,7,50,0,0,0,0,0
+Font=WenQuanYi Zen Hei,10,-1,5,57,0,0,0,0,0,Regular
 Line Height Multiplier=1
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
@@ -63,7 +64,7 @@ Word Wrap Marker=false
 
 [KTextEditor View]
 Allow Mark Menu=true
-Auto Brackets=false
+Auto Brackets=true
 Auto Center Lines=0
 Auto Completion=true
 Auto Completion Preselect First Entry=true
@@ -111,25 +112,20 @@ Word Completion=true
 Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
-[KTextEditor::Search]
-Search History=pane-frames,shell,test,version,CONAN_LIBS,shift
-
 [MainWindow]
-HDMI-0 Height 1707x960=448
-HDMI-0 Height 2560x1440=691
-HDMI-0 Width 1707x960=840
-HDMI-0 Width 2560x1440=1266
-HDMI-0 Window-Maximized 1280x720=true
-
-[UiSettings]
-ColorScheme=Default
+HDMI-0 Height 1920x1080=1027
+HDMI-0 Height 2560x1440=1395
+HDMI-0 Width 1920x1080=1918
+HDMI-0 Width 2560x1440=884
+HDMI-0 Window-Maximized 1920x1080=true
+HDMI-0 Window-Maximized 2560x1440=true
 
 [filetree]
-editShade=4,86,103
+editShade=126,68,114
 listMode=false
 shadingEnabled=true
 showCloseButton=false
 showFullPathOnRoots=false
 showToolbar=true
 sortRole=0
-viewShade=56,81,113
+viewShade=124,42,140

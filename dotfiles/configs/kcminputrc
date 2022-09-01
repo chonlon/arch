@@ -3,3 +3,7 @@ update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize,kcminp
 
 [Mouse]
 X11LibInputXAccelProfileFlat=false
+cursorSize=36
+
+[Tmp]
+update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize

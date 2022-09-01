@@ -45,7 +45,7 @@ Fallback Encoding=ISO 8859-15
 Animate Bracket Matching=false
 Auto Color Theme Selection=true
 Color Theme=Breeze Dark
-Font=Hack,10,-1,7,50,0,0,0,0,0
+Font=WenQuanYi Zen Hei,10,-1,5,57,0,0,0,0,0,Regular
 Line Height Multiplier=1
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
@@ -53,7 +53,7 @@ Word Wrap Marker=false
 
 [KTextEditor View]
 Allow Mark Menu=true
-Auto Brackets=false
+Auto Brackets=true
 Auto Center Lines=0
 Auto Completion=true
 Auto Completion Preselect First Entry=true
@@ -88,6 +88,7 @@ Scroll Past End=false
 Search/Replace Flags=140
 Show Documentation With Completion=true
 Show Focus Frame Around Editor=true
+Show Folding Icons On Hover Only=true
 Show Line Count=false
 Show Scrollbars=0
 Show Word Count=false
@@ -101,26 +102,18 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [MainWindow]
-HDMI-0 Height 1707x960=915
-HDMI-0 Width 1707x960=1183
-HDMI-0 Window-Maximized 2560x1440=true
-HDMI-0 XPosition 1707x960=2
-HDMI-0 XPosition 2560x1440=479
-HDMI-0 YPosition 1707x960=35
-HDMI-0 YPosition 2560x1440=638
+HDMI-0 XPosition 1920x1080=690
+HDMI-0 YPosition 1920x1080=467
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABJ8AAANdAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAArwAAAHGAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 StatusBar=Disabled
 ToolBarsMovable=Disabled
-splitterSizes=700,482
+splitterSizes=466,233
 
 [Viewer]
-HDMI-0 Height 2560x1440=110
-HDMI-0 Width 2560x1440=245
-HDMI-0 XPosition 1707x960=745
-HDMI-0 XPosition 2560x1440=1157
-HDMI-0 YPosition 1707x960=451
-HDMI-0 YPosition 2560x1440=695
+HDMI-0 Window-Maximized 1920x1080=true
+HDMI-0 XPosition 1920x1080=849
+HDMI-0 YPosition 1920x1080=515
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAAPUAAABAAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAPWAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled

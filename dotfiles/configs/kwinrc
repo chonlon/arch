@@ -2,33 +2,45 @@
 update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup
 
 [Compositing]
+GLTextureFilter=1
+LatencyPolicy=ExtremelyHigh
 OpenGLIsUnsafe=false
 
 [Desktops]
-Id_1=29673c21-c519-434f-adba-b9554320e919
-Id_2=4b1cda5d-39b4-4988-af4f-6a34763ba659
+Id_1=393169c2-30f3-49d9-b8dc-e503c9c1d8fc
+Id_2=f4dc9a45-5cb6-4524-8be1-b0acb3953fb6
+Id_3=c757cf90-4977-4b48-aa95-f195610e0d38
+Id_4=9c1dac31-5be7-4501-b2f7-06b1f4e50b10
+Id_5=97da89d3-85fd-461f-be5e-8bf9b059eede
 Name_1=Chrome
-Name_2=Work
-Number=2
+Name_2=Work1
+Name_3=Work2
+Name_4=Obsidian
+Name_5=Terminal
+Number=5
 Rows=1
-
-[ModifierOnlyShortcuts]
-Meta=org.kde.plasmashell,/PlasmaShell,org.kde.PlasmaShell,activateLauncherMenu
 
 [NightColor]
 Active=true
-LatitudeAuto=22.2578
-LatitudeFixed=22.648722
-LongitudeAuto=114.1657
-LongitudeFixed=114.09169
-Mode=Location
+LatitudeAuto=22.2908
+LongitudeAuto=114.1501
 
 [Plugins]
 krohnkiteEnabled=true
-kwin-script-tilingEnabled=false
+trackmouseEnabled=true
 
-[Script-kwin-script-tiling]
-floaters=\\0
+[Script-krohnkite]
+enableFloatingLayout=true
+enableQuarterLayout=true
+floatingClass=jetbrains-*,
+ignoreClass=krunner,yakuake,spectacle,kded5,copyq,systemsettings,
+newWindowAsMaster=true
+preventProtrusion=false
+tileLayoutGap=8
 
 [TabBox]
-HighlightWindows=false
+LayoutName=present_windows
+
+[org.kde.kdecoration2]
+BorderSize=Tiny
+BorderSizeAuto=false
