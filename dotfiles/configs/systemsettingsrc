@@ -14,19 +14,19 @@ HDMI-0 Width 2560x1440=1868
 HDMI-0 Width 3840x2160=1461
 HDMI-0 Window-Maximized 1920x1080=true
 HDMI-0 XPosition 1920x1080=0
-HDMI-0 XPosition 2560x1440=770
+HDMI-0 XPosition 2560x1440=0
 HDMI-0 XPosition 3840x2160=625
 HDMI-0 YPosition 1920x1080=0
-HDMI-0 YPosition 2560x1440=403
+HDMI-0 YPosition 2560x1440=0
 HDMI-0 YPosition 3840x2160=1053
 MenuBar=Disabled
 RestorePositionForNextInstance=false
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAQIAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB0wAAAVZAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
 [Open-with settings]
 CompletionMode=1
-History=ya,utoo,flame,clash,copy
+History=ala,ya,utoo,flame,clash,copy
 
 [systemsettings_sidebar_mode]
 HighlightNonDefaultSettings=false

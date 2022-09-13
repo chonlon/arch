@@ -1,9 +1,11 @@
 [FileDialogSize]
+HDMI-0 Height 2560x1440=793
 HDMI-0 Height 3840x2160=1164
+HDMI-0 Width 2560x1440=977
 HDMI-0 Width 3840x2160=1956
 HDMI-0 Window-Maximized 1920x1080=true
 
 [KFileDialog Settings]
-Recent Files[$e]=out.txt,file:///mnt/2_modules/3d/solidworks/北票温氏康宝屠宰深加工项目/铜球阀DN15.SLDPRT,file:///mnt/2_modules/3d/solidworks/北票温氏康宝屠宰深加工项目/DN100手动蝶阀.SLDPRT,file:///mnt/2_modules/3d/solidworks/北票温氏康宝屠宰深加工项目/DN150手动蝶阀.SLDPRT,file:///mnt/2_modules/3d/cereo/ac_cobra1_body_cb.prt.1,file:///mnt/2_modules/3d/stp/polaroid_300_asm.stp,file:///mnt/2_modules/3d/stp/Ardita_PikesPeak.stp,file:///mnt/2_modules/3d/stp/lockheed_light.STEP,file:///mnt/2_modules/3d/stp/机械臂.step,file:///mnt/2_modules/3d/stp/cam_cover.STEP,file:///mnt/2_modules/3d/stp/shoubing2021-3-25-11.stp,file:///mnt/2_modules/3d/stp/Lockheed.stp,file:///mnt/2_modules/3d/stp/16 电池盖(长续航).stp,file:///mnt/2_modules/3d/stp/4 电机接头.stp,file:///mnt/2_modules/3d/stp/5 电机接头后盖 V1.1.stp,file:///mnt/2_modules/3d/stp/ferrari.stp,file:///mnt/2_modules/3d/stp/steering_knuckle_RH.stp,file:///mnt/2_modules/3d/stp/Endless-Screw.stp
-Recent URLs[$e]=file:///mnt/2_modules/3d/model/,recentlyused:/locations/,file:///mnt/2_modules/,file:///mnt/2_modules/3d/solidworks/北票温氏康宝屠宰深加工项目/,file:///mnt/2_modules/3d/iges/,file:///mnt/2_modules/3d/obj/,file:///mnt/2_modules/3d/parasolid/,file:///mnt/2_modules/3d/stp/,file:///mnt/2_modules/3d/,file:///mnt/2_modules/3d/cereo/,file:///mnt/2_modules/3d/solidworks/
+Recent Files[$e]=out.txt,file:///mnt/2_modules/3d/stp/6 上盖卡扣.stp,file:///mnt/2_modules/3d/stp/脊柱螺钉盒.STEP,file:///mnt/2_modules/3d/stp/SJ-304W无工作台-装配体.STEP,file:///mnt/2_modules/3d/stp/013_Tilting Cargo E-Bike XC.step,file:///mnt/2_modules/bug/22-9-9-2d显示失败/DWG/DWG.DWG,file:///mnt/2_modules/2d/cad/all2d.dwg,file:///mnt/2_modules/3d/stp/LanciaStratosHFsport.STEP,file:///mnt/2_modules/3d/stp/HY21023.stp,file:///mnt/2_modules/3d/stp/Bugatti chiron.STEP,file:///mnt/2_modules/3d/stp/TRUCK tipper.stp,file:///mnt/2_modules/3d/stp/caibankaimutu-210112.stp,file:///mnt/2_modules/3d/stp/Two stroke rotary engine.stp,file:///mnt/2_modules/3d/stp/Gilera Saturno Replica Assy.STEP,file:///mnt/2_modules/3d/stp/10 摄像头固定架.stp
+Recent URLs[$e]=file:///mnt/2_modules/3d/model/,file:///mnt/2_modules/3d/solidworks/电动缸/,file:$HOME/,file:///mnt/2_modules/3d/iges/,file:///mnt/2_modules/3d/stp/,file:///mnt/2_modules/3d/obj/,file:///mnt/2_modules/,file:///mnt/2_modules/2d/cad/,file:///mnt/2_modules/bug/22-9-9-2d显示失败/DWG/,file:///mnt/2_modules/3d/
 detailViewIconSize=16

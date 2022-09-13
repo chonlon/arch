@@ -23,9 +23,10 @@ display=Display,Display\tMeta+P,Switch Display
 
 [khotkeys]
 _k_friendly_name=Custom Shortcuts Service
-{3b0cdf68-086e-4d50-a738-e22eb133af54}=Meta+1,none,chrome
+{3b0cdf68-086e-4d50-a738-e22eb133af54}=none,none,chrome
 {c64ba296-3424-4606-be73-76b531a811fa}=none,none,New Action
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Search
+{db05b4f1-704d-421b-8421-5a5601ff5d70}=Meta+Shift+Return,none,kitty
 {e5cbd9f2-c5d9-4638-ad44-a7444b139e3d}=Meta+Space,none,window
 {fe3315d5-d214-499f-b2d2-c008716e5a2a}=Meta+2,none,code
 
@@ -57,32 +58,32 @@ Invert Screen Colors=none,,Invert Screen Colors
 Kill Window=Ctrl+Alt+Esc,Meta+Ctrl+Esc,Kill Window
 Krohnkite: Cycle Layout=none,none,
 Krohnkite: Decrease=none,none,
-Krohnkite: Down/Next=Meta+N,none,
+Krohnkite: Down/Next=none,none,
 Krohnkite: Float=Meta+F,none,
-Krohnkite: Float All=none,none,
-Krohnkite: Floating Layout=Meta+Shift+F,none,
+Krohnkite: Float All=Meta+Shift+F,none,
+Krohnkite: Floating Layout=none,none,
 Krohnkite: Grow Height=Meta+Ctrl+=,none,
 Krohnkite: Grow Width=Meta+=\tMeta+Ctrl+L,none,
 Krohnkite: Increase=none,none,
 Krohnkite: Left=Meta+H,none,
-Krohnkite: Monocle Layout=Meta+M,none,
-Krohnkite: Move Down/Next=Meta+Return,none,
+Krohnkite: Monocle Layout=Meta+7,none,
+Krohnkite: Move Down/Next=none,none,
 Krohnkite: Move Left=Meta+Shift+H,none,
 Krohnkite: Move Right=none,none,
 Krohnkite: Move Up/Prev=none,none,
 Krohnkite: Next Layout=Meta+\\\\,none,
 Krohnkite: Previous Layout=Meta+|,none,
-Krohnkite: Quarter Layout=none,none,
+Krohnkite: Quarter Layout=Meta+6,none,
 Krohnkite: Right=none,none,
 Krohnkite: Rotate=Meta+R,none,
 Krohnkite: Rotate Part=Meta+Shift+R,none,
-Krohnkite: Set master=Ctrl+Return,none,
+Krohnkite: Set master=Meta+Return,none,
 Krohnkite: Shrink Height=Meta+Ctrl+-\tMeta+Ctrl+K,none,
 Krohnkite: Shrink Width=Meta+-,none,
 Krohnkite: Spread Layout=none,none,
-Krohnkite: Stair Layout=none,none,
-Krohnkite: Three Column Layout=none,none,
-Krohnkite: Tile Layout=Meta+T,none,
+Krohnkite: Stair Layout=Meta+9,none,
+Krohnkite: Three Column Layout=Meta+8,none,
+Krohnkite: Tile Layout=none,none,
 Krohnkite: Up/Prev=none,none,
 MoveMouseToCenter=Meta+F6,Meta+F6,Move Mouse to Center
 MoveMouseToFocus=Meta+F5,Meta+F5,Move Mouse to Focus
@@ -157,10 +158,10 @@ Window Fullscreen=none,,Make Window Fullscreen
 Window Grow Horizontal=none,,Expand Window Horizontally
 Window Grow Vertical=none,,Expand Window Vertically
 Window Lower=none,,Lower Window
-Window Maximize=Meta+PgUp,Meta+PgUp,Maximize Window
+Window Maximize=Meta+N\tMeta+PgUp,Meta+PgUp,Maximize Window
 Window Maximize Horizontal=none,,Maximize Window Horizontally
 Window Maximize Vertical=none,,Maximize Window Vertically
-Window Minimize=Meta+PgDown,Meta+PgDown,Minimize Window
+Window Minimize=Meta+PgDown\tMeta+M,Meta+PgDown,Minimize Window
 Window Move=none,,Move Window
 Window Move Center=none,,Move Window to the Center
 Window No Border=none,,Hide Window Border
@@ -263,7 +264,7 @@ _k_friendly_name=Power Management
 
 [plasmashell]
 _k_friendly_name=Plasma
-activate task manager entry 1=none,Meta+1,Activate Task Manager Entry 1
+activate task manager entry 1=Meta+1,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=none,Meta+0,Activate Task Manager Entry 10
 activate task manager entry 2=none,Meta+2,Activate Task Manager Entry 2
 activate task manager entry 3=none,Meta+3,Activate Task Manager Entry 3
@@ -293,6 +294,17 @@ switch to next activity=none,,Switch to Next Activity
 switch to previous activity=none,,Switch to Previous Activity
 toggle do not disturb=none,,Toggle do not disturb
 
+[plasmawindowed]
+_k_friendly_name=plasmawindowed
+clear-history=none,none,Clear Clipboard History
+clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
+cycleNextAction=none,none,Next History Item
+cyclePrevAction=none,none,Previous History Item
+edit_clipboard=none,none,Edit Contents…
+repeat_action=Meta+Ctrl+R,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
+show-barcode=none,none,Show Barcode…
+show-on-mouse-pos=none,Meta+V,Open Klipper at Mouse Position
+
 [systemsettings.desktop]
 _k_friendly_name=System Settings
 _launch=Tools,Tools,System Settings
@@ -304,4 +316,4 @@ screenlocker=none,none,Screen Locking
 
 [yakuake]
 _k_friendly_name=Yakuake
-toggle-window-state=F12\tMeta+Shift+Return\tMeta+I,F12,Open/Retract Yakuake
+toggle-window-state=F12\tMeta+I,F12,Open/Retract Yakuake

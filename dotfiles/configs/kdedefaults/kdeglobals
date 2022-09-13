@@ -1,8 +1,8 @@
 [General]
-ColorScheme=Layan
+ColorScheme=Sweet
 
 [Icons]
 Theme=Tela
 
 [KDE]
-widgetStyle=kvantum
+widgetStyle=kvantum-dark

@@ -1,10 +1,7 @@
 [Applets][3]
 immutability=1
-plugin=org.kde.plasma.timer
+plugin=org.kde.plasma.calculator
 
 [Applets][3][Configuration]
 PreloadWeight=42
-geometry=773,421,159,159
-
-[Applets][3][Configuration][General]
-savedAt=2022,5,29,19,0,50.518
+geometry=4,61,1353,1375

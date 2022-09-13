@@ -14,7 +14,7 @@ immutability=1
 lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
+wallpaperplugin=org.kde.slideshow
 
 [Containments][1][ConfigDialog]
 DialogHeight=2064
@@ -31,6 +31,11 @@ ToolBoxButtonY=48
 [Containments][1][Wallpaper][org.kde.image][General]
 Image=file:///home/lon/Pictures/976013.jpg
 SlidePaths=/usr/share/wallpapers
+
+[Containments][1][Wallpaper][org.kde.slideshow][General]
+Image=file:///home/lon/Pictures/wallpapers/1.png
+SlidePaths=/home/lon/Pictures/wallpapers
+UncheckedSlides=file:///home/lon/Pictures/shot/nord-nvim.png,file:///home/lon/Pictures/shot/nord-nvim-coding.png,file:///home/lon/Pictures/wallpapers/nordic-obsession.png,file:///home/lon/Pictures/shots/window.png,file:///home/lon/Pictures/qtile/wallpaper.png,file:///home/lon/Pictures/wallpapers/poster.png
 
 [Containments][22]
 activityId=
@@ -68,7 +73,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][22][Applets][40][Configuration]
-PreloadWeight=63
+PreloadWeight=88
 
 [Containments][22][Applets][40][Configuration][Appearance]
 dateDisplayFormat=BesideTime
@@ -101,7 +106,7 @@ DialogWidth=1400
 
 [Containments][22][Applets][49][Configuration][General]
 launchers=preferred://browser
-showOnlyCurrentDesktop=false
+showOnlyCurrentActivity=false
 
 [Containments][22][ConfigDialog]
 DialogHeight=173
@@ -167,7 +172,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][25][Applets][34][Configuration]
-PreloadWeight=23
+PreloadWeight=28
 
 [Containments][25][Applets][35]
 immutability=1
@@ -181,7 +186,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][25][Applets][36][Configuration]
-PreloadWeight=48
+PreloadWeight=78
 
 [Containments][25][Applets][46]
 immutability=1
@@ -194,6 +199,9 @@ PreloadWeight=0
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
+[Containments][25][Applets][50][Configuration]
+PreloadWeight=65
+
 [Containments][25][ConfigDialog]
 DialogHeight=1200
 DialogWidth=1600
@@ -202,7 +210,7 @@ DialogWidth=1600
 PreloadWeight=18
 
 [Containments][25][General]
-extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.plasma.nightcolorcontrol,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,Yakuake
+extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.plasma.nightcolorcontrol,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.devicenotifier
 hiddenItems=CopyQ_copyq,CopyQ,org.kde.plasma.nightcolorcontrol,org.kde.plasma.devicenotifier
 knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.vault,org.kde.plasma.nightcolorcontrol,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.notifications
 shownItems=org.kde.plasma.volume,Yakuake

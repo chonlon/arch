@@ -4,6 +4,9 @@ Frames=0
 [Appearance]
 HideSkinBorders=true
 
+[Behavior]
+FocusFollowsMouse=true
+
 [Desktop Entry]
 DefaultProfile=mine.profile
 
@@ -20,7 +23,8 @@ detailViewIconSize=16
 [Window]
 Height=80
 KeepOpen=false
-Position=60
+Position=30
+ShowOnAllDesktops=false
 ShowTabBar=false
 ShowTitleBar=false
 ToggleToFocus=true
