@@ -1,131 +1,146 @@
 updateInfoAdded=true
 
+[bismuth_new_logger.upd]
+ctime=1663339340
+done=bismuth-new-logger
+mtime=1663339338
+
+[bismuth_old_conf_ui.upd]
+ctime=1663339340
+done=bismuth-old-conf-ui
+mtime=1663339338
+
+[bismuth_shortcuts_category.upd]
+ctime=1663339340
+done=bismuth-shortcuts-category
+mtime=1663339338
+
 [breezehighcontrasttobreezedark.upd]
-ctime=1659580989
+ctime=1662566056
 done=BreezeHighContrastToBreezeDark
-mtime=1659472557
+mtime=1662471086
 
 [breezetobreezeclassic.upd]
-ctime=1659580989
+ctime=1662566056
 done=BreezeToBreezeClassic
-mtime=1659472557
+mtime=1662471086
 
 [breezetobreezelight.upd]
-ctime=1659580989
+ctime=1662566056
 done=BreezeToBreezeLight
-mtime=1659472557
+mtime=1662471086
 
 [delete_cursor_old_default_size.upd]
-ctime=1659580994
+ctime=1663339004
 done=DeleteCursorOldDefaultSize
-mtime=1659473195
+mtime=1663152958
 
 [disable_kmix.upd]
-ctime=1659580998
+ctime=1662566060
 done=PlasmaVolume_DisableKMixAutostart
-mtime=1659475060
+mtime=1662473585
 
 [dolphin_detailsmodesettings.upd]
-ctime=1661498898
+ctime=1662736759
 done=rename-leading-padding
-mtime=1660846188
+mtime=1662484864
 
 [filepicker.upd]
-ctime=1660632833
+ctime=1663338996
 done=filepicker-remove-old-previews-entry
-mtime=1660582591
+mtime=1662495004
 
 [fonts_akregator.upd]
-ctime=1659580994
+ctime=1663339004
 done=Plasma_Fonts_Akregator
-mtime=1659473155
+mtime=1663136171
 
 [fonts_global.upd]
-ctime=1659580994
+ctime=1663339004
 done=Fonts_Global
-mtime=1659473155
+mtime=1663136171
 
 [fonts_global_toolbar.upd]
-ctime=1659580994
+ctime=1663339004
 done=Fonts_Global_Toolbar
-mtime=1659473155
+mtime=1663136171
 
 [fonts_kate.upd]
-ctime=1659580994
+ctime=1663339004
 done=Plasma_Fonts_Kate
-mtime=1659473155
+mtime=1663136171
 
 [gtkconfig.upd]
-ctime=1659580993
+ctime=1662566057
 done=gtk_theme,dont_use_gtk_css_for_window_decorations,remove_deprecated_gtk4_option
-mtime=1659474260
+mtime=1662472786
 
 [icons_remove_effects.upd]
-ctime=1659580994
+ctime=1663339004
 done=IconsRemoveEffects
-mtime=1659473195
+mtime=1663152958
 
 [kcm_rename_plasma_desktop.upd]
-ctime=1659580998
+ctime=1662566060
 done=5.24PlasmaDesktopKCMRename
-mtime=1659474629
+mtime=1662473153
 
 [kcminputrc_fix_botched_5_21_0.upd]
-ctime=1659580998
+ctime=1662566060
 done=kcminputrc_fix_botched_5_21_0_pre,kcminputrc_fix_botched_5_21_0
-mtime=1659474629
+mtime=1662473153
 
 [kcminputrc_repeat.upd]
-ctime=1659580998
+ctime=1662566060
 done=kcminputrc_migrate_key_repeat
-mtime=1659474629
+mtime=1662473153
 
 [konsole_globalaccel.upd]
-ctime=1661498905
+ctime=1662736759
 done=konsole_globalaccel
-mtime=1660854558
+mtime=1662494723
 
 [krunnerglobalshortcuts2.upd]
-ctime=1659580994
+ctime=1663339004
 done=5.22KRunnerGlobalShortcuts
-mtime=1659473195
+mtime=1663152958
 
 [krunnerhistory.upd]
-ctime=1659580994
+ctime=1663339004
 done=5.21KRunnerHistory
-mtime=1659473195
+mtime=1663152958
 
 [kscreenlocker.upd]
-ctime=1659580994
+ctime=1662566057
 done=0.1-autolock
-mtime=1659472409
+mtime=1662470937
 
 [ksmserver_update_loginMode_value.upd]
-ctime=1659580998
+ctime=1662566060
 done=ksmserver_update_loginMode_value_default_enum
-mtime=1659474629
+mtime=1662473153
 
 [kwin.upd]
-ctime=1659580994
+ctime=1662736759
 done=replace-scalein-with-scale,port-minimizeanimation-effect-to-js,port-scale-effect-to-js,port-dimscreen-effect-to-js,auto-bordersize,animation-speed,desktop-grid-click-behavior,no-swap-encourage,make-translucency-effect-disabled-by-default,remove-flip-switch-effect,remove-cover-switch-effect,remove-cubeslide-effect,remove-xrender-backend,enable-scale-effect-by-default,overview-group-plugin-id,animation-speed-cleanup
-mtime=1659472623
+mtime=1662634639
 
 [kwinrules.upd]
-ctime=1659580994
+ctime=1662736759
 done=replace-placement-string-to-enum,use-virtual-desktop-ids
-mtime=1659472623
+mtime=1662634639
 
 [kxkb.upd]
-ctime=1659580998
+ctime=1662566060
 done=remove-empty-lists,add-back-resetoptions
-mtime=1659474629
+mtime=1662473153
 
 [kxkb_variants.upd]
-ctime=1659580998
+ctime=1662566060
 done=split-variants
-mtime=1659474629
+mtime=1662473153
 
 [style_widgetstyle_default_breeze.upd]
-ctime=1659580994
+ctime=1663339004
 done=StyleWidgetStyleDefaultBreeze
-mtime=1659473195
+mtime=1663152958

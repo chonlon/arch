@@ -5,7 +5,7 @@ Frames=0
 HideSkinBorders=true
 
 [Desktop Entry]
-DefaultProfile=mine.profile
+DefaultProfile=My.profile
 
 [Dialogs]
 FirstRun=false

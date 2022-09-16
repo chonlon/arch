@@ -6,6 +6,7 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
+ItemGeometries-2560x1440=
 ItemGeometries-3840x2160=
 ItemGeometriesHorizontal=
 activityId=e2bae053-8399-4a2c-b571-abbc7599daf6
@@ -17,19 +18,19 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][1][ConfigDialog]
-DialogHeight=2064
-DialogWidth=3840
+DialogHeight=1344
+DialogWidth=2560
 
 [Containments][1][Configuration]
 PreloadWeight=10
 
 [Containments][1][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=1106
+ToolBoxButtonX=737
 ToolBoxButtonY=48
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///home/lon/Pictures/976013.jpg
+Image=file:///usr/share/wallpapers/Autumn/contents/images/2560x1600.jpg
 SlidePaths=/usr/share/wallpapers
 
 [Containments][22]
@@ -101,7 +102,7 @@ DialogWidth=1400
 
 [Containments][22][Applets][49][Configuration][General]
 launchers=preferred://browser
-showOnlyCurrentDesktop=false
+showOnlyCurrentActivity=false
 
 [Containments][22][ConfigDialog]
 DialogHeight=173
@@ -194,6 +195,10 @@ PreloadWeight=0
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
+[Containments][25][Applets][51]
+immutability=1
+plugin=org.kde.plasma.bluetooth
+
 [Containments][25][ConfigDialog]
 DialogHeight=1200
 DialogWidth=1600
@@ -202,10 +207,11 @@ DialogWidth=1600
 PreloadWeight=18
 
 [Containments][25][General]
-extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.plasma.nightcolorcontrol,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,Yakuake
+extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.plasma.nightcolorcontrol,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.devicenotifier
 hiddenItems=CopyQ_copyq,CopyQ,org.kde.plasma.nightcolorcontrol,org.kde.plasma.devicenotifier
 knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.vault,org.kde.plasma.nightcolorcontrol,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.notifications
 shownItems=org.kde.plasma.volume,Yakuake
 
 [ScreenMapping]
 itemsOnDisabledScreens=
+screenMapping=desktop:/zsh-backup,0,e2bae053-8399-4a2c-b571-abbc7599daf6,desktop:/temp,0,e2bae053-8399-4a2c-b571-abbc7599daf6,desktop:/Videos,0,e2bae053-8399-4a2c-b571-abbc7599daf6,desktop:/test,0,e2bae053-8399-4a2c-b571-abbc7599daf6,desktop:/Downloads,0,e2bae053-8399-4a2c-b571-abbc7599daf6,desktop:/Desktop,0,e2bae053-8399-4a2c-b571-abbc7599daf6,desktop:/Music,0,e2bae053-8399-4a2c-b571-abbc7599daf6,desktop:/README.md,0,e2bae053-8399-4a2c-b571-abbc7599daf6,desktop:/PycharmProjects,0,e2bae053-8399-4a2c-b571-abbc7599daf6,desktop:/startpage,0,e2bae053-8399-4a2c-b571-abbc7599daf6,desktop:/Nutstore Files,0,e2bae053-8399-4a2c-b571-abbc7599daf6,desktop:/Pictures,0,e2bae053-8399-4a2c-b571-abbc7599daf6,desktop:/2_download,0,e2bae053-8399-4a2c-b571-abbc7599daf6,desktop:/go,0,e2bae053-8399-4a2c-b571-abbc7599daf6,desktop:/1_code,0,e2bae053-8399-4a2c-b571-abbc7599daf6,desktop:/Public,0,e2bae053-8399-4a2c-b571-abbc7599daf6,desktop:/3_lon,0,e2bae053-8399-4a2c-b571-abbc7599daf6,desktop:/Documents,0,e2bae053-8399-4a2c-b571-abbc7599daf6,desktop:/4_libs,0,e2bae053-8399-4a2c-b571-abbc7599daf6,desktop:/CLionProjects,0,e2bae053-8399-4a2c-b571-abbc7599daf6

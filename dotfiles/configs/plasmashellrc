@@ -16,6 +16,9 @@ thickness=80
 [PlasmaViews][Panel 22][Defaults]
 thickness=48
 
+[PlasmaViews][Panel 22][Horizontal2560]
+thickness=48
+
 [PlasmaViews][Panel 22][Horizontal3840]
 thickness=48
 

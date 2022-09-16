@@ -140,8 +140,8 @@ Speedbar Width=316
 View Style=DetailTree
 
 [KScreen]
-ScaleFactor=2
-ScreenScaleFactors=DVI-D-0=2;HDMI-0=2;DP-0=2;DP-1=2;
+ScaleFactor=1.25
+ScreenScaleFactors=DVI-D-0=1.25;HDMI-0=1.25;
 
 [WM]
 activeBackground=47,52,63

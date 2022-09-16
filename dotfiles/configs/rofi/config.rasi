@@ -91,7 +91,7 @@ mode-switcher {
 
 button {
     padding: 10px;
-    background-color: @bg-col-dark;
+    background-color: @bg-col;
     text-color: @grey;
     vertical-align: 0.5; 
     horizontal-align: 0.5;
