@@ -10,6 +10,18 @@ Mode Set By User=false
 Time=2022,8,30,3,33,10.401
 URL=file:///home/lon/3_lon/Small-Test-Projects/python/cli-tools/fzf-open.py
 
+[file:///home/lon/4_test/1.cpp]
+Bookmarks=
+Checksum=75dcdfdaca331c3579cb177be1d1dc892dfac659
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+Time=2022,9,5,3,35,46.422
+URL=file:///home/lon/4_test/1.cpp
+
 [file:///home/lon/Downloads/The First Airdrop.csv]
 Bookmarks=
 Checksum=8ef56a603c663d413e4dc7f45139ba46c4de5505
@@ -81,6 +93,18 @@ Mode=Normal
 Mode Set By User=false
 Time=2022,8,25,11,47,53.668
 URL=file:///home/lon/Downloads/性能结果.csv
+
+[file:///mnt/2_modules/3d/stp/FINAL BUGGY.stp]
+Bookmarks=
+Checksum=f7f435047fe8cfc5e62adb360b0e6a540189b8c6
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2022,9,8,8,34,30.661
+URL=file:///mnt/2_modules/3d/stp/FINAL BUGGY.stp
 
 [file:///mnt/2_modules/3d/stp/装配体方块-solidworks.STEP]
 Bookmarks=

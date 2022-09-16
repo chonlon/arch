@@ -12,10 +12,10 @@ Id_2=f4dc9a45-5cb6-4524-8be1-b0acb3953fb6
 Id_3=c757cf90-4977-4b48-aa95-f195610e0d38
 Id_4=9c1dac31-5be7-4501-b2f7-06b1f4e50b10
 Id_5=97da89d3-85fd-461f-be5e-8bf9b059eede
-Name_1=Chrome
+Name_1=浏览
 Name_2=Work1
 Name_3=Work2
-Name_4=Obsidian
+Name_4=Note
 Name_5=Terminal
 Number=5
 Rows=1
@@ -26,21 +26,43 @@ LatitudeAuto=22.2908
 LongitudeAuto=114.1501
 
 [Plugins]
-krohnkiteEnabled=true
+bismuthEnabled=true
+krohnkiteEnabled=false
 trackmouseEnabled=true
+
+[Script-bismuth]
+floatingClass=jetbrains-*
+maximizeSoleTile=true
+screenGapBottom=5
+screenGapLeft=10
+screenGapRight=10
+screenGapTop=10
+tileLayoutGap=10
 
 [Script-krohnkite]
 enableFloatingLayout=true
 enableQuarterLayout=true
+enableSpreadLayout=false
+enableStairLayout=false
 floatingClass=jetbrains-*,
 ignoreClass=krunner,yakuake,spectacle,kded5,copyq,systemsettings,
+limitTileWidth=true
+maximizeSoleTile=true
 newWindowAsMaster=true
-preventProtrusion=false
-tileLayoutGap=8
+noTileBorder=true
+screenGapLeft=10
+screenGapRight=10
+screenGapTop=10
+tileLayoutGap=10
 
 [TabBox]
-LayoutName=present_windows
+LayoutName=com.github.vinceliuice.Layan
+
+[TabBoxAlternative]
+LayoutName=flipswitch
 
 [org.kde.kdecoration2]
 BorderSize=Tiny
 BorderSizeAuto=false
+library=org.kde.bismuth.decoration
+theme=Bismuth

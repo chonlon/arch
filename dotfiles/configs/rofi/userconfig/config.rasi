@@ -1,15 +1,17 @@
 configuration{
     modi: "run,drun,window";
-    icon-theme: "Oranchelo";
+    lines: 5;
+    font: "JetBrainsMono Nerd Font 14";
     show-icons: true;
-    terminal: "alacritty";
+    icon-theme: "Oranchelo";
+    terminal: "kitty";
     drun-display-format: "{icon} {name}";
     location: 0;
     disable-history: false;
     hide-scrollbar: true;
     display-drun: "   Apps ";
     display-run: "   Run ";
-    display-window: " 﩯  Window";
+    display-window: " 﩯  window";
     display-Network: " 󰤨  Network";
     sidebar-mode: true;
 }
@@ -89,7 +91,7 @@ mode-switcher {
 
 button {
     padding: 10px;
-    background-color: @bg-col;
+    background-color: @bg-col-dark;
     text-color: @grey;
     vertical-align: 0.5; 
     horizontal-align: 0.5;

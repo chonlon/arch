@@ -95,7 +95,6 @@ $reboot)
 $suspend)
 	mpc -q pause &
 	playerctl pause &
-	betterlockscreen -l
 	systemctl suspend
 	;;
 $logout)

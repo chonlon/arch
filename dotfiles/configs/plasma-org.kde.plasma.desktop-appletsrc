@@ -15,7 +15,7 @@ immutability=1
 lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
+wallpaperplugin=org.kde.slideshow
 
 [Containments][1][ConfigDialog]
 DialogHeight=1344
@@ -32,6 +32,11 @@ ToolBoxButtonY=48
 [Containments][1][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/Autumn/contents/images/2560x1600.jpg
 SlidePaths=/usr/share/wallpapers
+
+[Containments][1][Wallpaper][org.kde.slideshow][General]
+Image=file:///home/lon/Pictures/wallpapers/evening-sky.png
+SlidePaths=/home/lon/Pictures/wallpapers
+UncheckedSlides=file:///home/lon/Pictures/shot/nord-nvim.png,file:///home/lon/Pictures/shot/nord-nvim-coding.png,file:///home/lon/Pictures/wallpapers/nordic-obsession.png,file:///home/lon/Pictures/shots/window.png,file:///home/lon/Pictures/qtile/wallpaper.png,file:///home/lon/Pictures/wallpapers/poster.png
 
 [Containments][22]
 activityId=
@@ -69,7 +74,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][22][Applets][40][Configuration]
-PreloadWeight=63
+PreloadWeight=100
 
 [Containments][22][Applets][40][Configuration][Appearance]
 dateDisplayFormat=BesideTime
@@ -168,7 +173,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][25][Applets][34][Configuration]
-PreloadWeight=23
+PreloadWeight=28
 
 [Containments][25][Applets][35]
 immutability=1
@@ -182,7 +187,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][25][Applets][36][Configuration]
-PreloadWeight=48
+PreloadWeight=78
 
 [Containments][25][Applets][46]
 immutability=1
@@ -195,9 +200,8 @@ PreloadWeight=0
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
-[Containments][25][Applets][51]
-immutability=1
-plugin=org.kde.plasma.bluetooth
+[Containments][25][Applets][50][Configuration]
+PreloadWeight=65
 
 [Containments][25][ConfigDialog]
 DialogHeight=1200
