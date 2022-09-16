@@ -33,7 +33,7 @@ Image=file:///home/lon/Pictures/976013.jpg
 SlidePaths=/usr/share/wallpapers
 
 [Containments][1][Wallpaper][org.kde.slideshow][General]
-Image=file:///home/lon/Pictures/wallpapers/1.png
+Image=file:///home/lon/Pictures/wallpapers/evening-sky.png
 SlidePaths=/home/lon/Pictures/wallpapers
 UncheckedSlides=file:///home/lon/Pictures/shot/nord-nvim.png,file:///home/lon/Pictures/shot/nord-nvim-coding.png,file:///home/lon/Pictures/wallpapers/nordic-obsession.png,file:///home/lon/Pictures/shots/window.png,file:///home/lon/Pictures/qtile/wallpaper.png,file:///home/lon/Pictures/wallpapers/poster.png
 
@@ -73,7 +73,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][22][Applets][40][Configuration]
-PreloadWeight=88
+PreloadWeight=100
 
 [Containments][22][Applets][40][Configuration][Appearance]
 dateDisplayFormat=BesideTime

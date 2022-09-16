@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup,bismuth_new_logger.upd:bismuth-new-logger
 
 [Compositing]
 GLTextureFilter=1
@@ -26,8 +26,18 @@ LatitudeAuto=22.2908
 LongitudeAuto=114.1501
 
 [Plugins]
-krohnkiteEnabled=true
+bismuthEnabled=true
+krohnkiteEnabled=false
 trackmouseEnabled=true
+
+[Script-bismuth]
+floatingClass=jetbrains-*
+maximizeSoleTile=true
+screenGapBottom=5
+screenGapLeft=10
+screenGapRight=10
+screenGapTop=10
+tileLayoutGap=10
 
 [Script-krohnkite]
 enableFloatingLayout=true
@@ -39,10 +49,11 @@ ignoreClass=krunner,yakuake,spectacle,kded5,copyq,systemsettings,
 limitTileWidth=true
 maximizeSoleTile=true
 newWindowAsMaster=true
-screenGapLeft=30
-screenGapRight=30
-screenGapTop=30
-tileLayoutGap=15
+noTileBorder=true
+screenGapLeft=10
+screenGapRight=10
+screenGapTop=10
+tileLayoutGap=10
 
 [TabBox]
 LayoutName=com.github.vinceliuice.Layan
@@ -51,7 +62,7 @@ LayoutName=com.github.vinceliuice.Layan
 LayoutName=flipswitch
 
 [org.kde.kdecoration2]
-BorderSize=Large
+BorderSize=Tiny
 BorderSizeAuto=false
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Sweet-Dark-transparent
+library=org.kde.bismuth.decoration
+theme=Bismuth
