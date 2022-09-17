@@ -1,5 +1,5 @@
 [$Version]
-update_info=konsole_globalaccel.upd:konsole_globalaccel
+update_info=konsole_globalaccel.upd:konsole_globalaccel,spectacle_shortcuts.upd:spectacle-migrate-shortcuts
 
 [ColorEffects:Disabled]
 ChangeSelectionColor[$d]
@@ -1160,6 +1160,7 @@ TerminalService[$d]
 XftAntialias[$d]
 XftHintStyle[$d]
 XftSubPixel[$d]
+accentColorFromWallpaper[$d]
 fixed[$d]
 font[$d]
 menuFont[$d]

@@ -3,31 +3,36 @@ detailViewIconSize=16
 
 [KPropertiesDialog]
 HDMI-0 Height 1920x1080=479
+HDMI-0 Height 2560x1440=525
 HDMI-0 Width 1920x1080=384
+HDMI-0 Width 2560x1440=458
 
 [MainWindow]
 HDMI-0 Height 1920x1080=1026
-HDMI-0 Height 2560x1440=1408
+HDMI-0 Height 2560x1440=1371
 HDMI-0 Height 3840x2160=700
 HDMI-0 Width 1920x1080=1016
-HDMI-0 Width 2560x1440=2560
+HDMI-0 Width 2560x1440=1531
 HDMI-0 Width 3840x2160=1461
 HDMI-0 Window-Maximized 1920x1080=true
-HDMI-0 Window-Maximized 2560x1440=true
 HDMI-0 XPosition 1920x1080=0
-HDMI-0 XPosition 2560x1440=0
+HDMI-0 XPosition 2560x1440=13
 HDMI-0 XPosition 3840x2160=625
 HDMI-0 YPosition 1920x1080=0
-HDMI-0 YPosition 2560x1440=32
+HDMI-0 YPosition 2560x1440=61
 HDMI-0 YPosition 3840x2160=1053
+HDMI-1 Height 2560x1440=1392
+HDMI-1 Width 2560x1440=2560
+HDMI-1 Window-Maximized 2560x1440=true
+HDMI-1 XPosition 2560x1440=0
+HDMI-1 YPosition 2560x1440=48
 MenuBar=Disabled
-RestorePositionForNextInstance=false
-State=AAAA/wAAAAD9AAAAAAAABPEAAAK8AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAA/wAAAK8AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
 [Open-with settings]
 CompletionMode=1
-History=ala,ya,utoo,flame,clash,copy
+History=yak,ala,copy,ya,utoo,flame,clash
 
 [systemsettings_sidebar_mode]
 HighlightNonDefaultSettings=false

@@ -55,9 +55,6 @@ screenGapRight=10
 screenGapTop=10
 tileLayoutGap=10
 
-[TabBox]
-LayoutName=com.github.vinceliuice.Layan
-
 [TabBoxAlternative]
 LayoutName=flipswitch
 
