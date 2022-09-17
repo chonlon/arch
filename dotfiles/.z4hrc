@@ -156,6 +156,23 @@ function fz() {
     eval 'fzf-open-alias ${dirnamev} $@ -t d'
 }
 
+function de() {
+    # docker exec
+    # fzf select live container and open shell in it
+    local container_desc="$(docker ps | awk '{print $1" "$2" "$4" "$5" "$6" "$10}' | sed '1d' | fzf)"
+    if [[ -z "${container_desc}" ]]; then
+        return 0
+    fi
+
+    local container_id="$(echo ${container_desc} | awk '{print $1}')"
+    # test if container has bash
+    if [[ -z "$(docker exec ${container_id} which bash)" ]]; then
+        docker exec -it ${container_id} sh
+    else
+        docker exec -it ${container_id} bash
+    fi
+}
+
 function gw() {
     local dirnamev="$(git worktree list | awk '{print $1}' | fzf)"
     if [[ -z "${dirnamev}" ]]; then
