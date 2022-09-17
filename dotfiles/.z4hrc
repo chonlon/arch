@@ -197,13 +197,16 @@ _cgw() {
 complete -F _cgw cgw
 
 # complete all docker images for dr
-_dr() {
+_dr_comp() {
     local cur="${COMP_WORDS[COMP_CWORD]}"
     local images="$(docker images | awk '{print $1":"$2}' | sed '1d')"
     COMPREPLY=( $(compgen -W "${images}" -- ${cur}) )
 }
 
-complete -F _dr dr
+complete -F  _dr_comp dr
+# compdef dr="docker"
+
+setopt complete_aliases
 
 function copy() {
     local dirn
