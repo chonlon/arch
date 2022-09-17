@@ -122,7 +122,6 @@ alias cd=cdl
 alias tree='tree -a -I .git'
 alias gc='gitmoji -c'
 alias dr='docker run --rm -it -v share_data:/root/data/'
-compdef docker dr
 alias db='docker build'
 alias lls='logo-ls'
 alias ls="exa"
@@ -149,30 +148,14 @@ alias fcc='f() {eval "$(fzf-open -c $@)"}; f'
 alias fcf='fzf-open-alias'
 alias fcd='fzf-open-alias -t d'
 
-
-
-function fwd() {
-    local dirnamev="$(wd list | sed '1d' | awk '{print $3}' | tr '\n' ' ')"
-
+function fz() {
+    local dirnamev="$(zoxide query -l | awk '{print $1}' | tr '\n' ' ')"
     if [[ -z "${dirnamev}" ]]; then
         return 0
     fi
     eval 'fzf-open-alias ${dirnamev} $@ -t d'
 }
-function fwc() {
-    local dirnamev="$(wd list | sed '1d' | awk '{print $3}' | tr '\n' ' ')"
-    if [[ -z "${dirnamev}" ]]; then
-        return 0
-    fi
-    eval 'fzf-open-alias ${dirnamev} -c $@'
-}
-function fwf() {
-    local dirnamev="$(wd list | sed '1d' | awk '{print $3}' | tr '\n' ' ')"
-    if [[ -z "${dirnamev}" ]]; then
-        return 0
-    fi
-    eval 'fzf-open-alias ${dirnamev} $@'
-}
+
 function gw() {
     local dirnamev="$(git worktree list | awk '{print $1}' | fzf)"
     if [[ -z "${dirnamev}" ]]; then
@@ -180,6 +163,47 @@ function gw() {
     fi
     cd ${dirnamev}
 }
+
+function cgw() {
+    # create git worktree
+    if [[ -z "$1" ]]; then
+        echo "Usage: cgw <dir> <branch>"
+        return 0
+    fi
+    if [[ -z "$GIT_WORKTREE_DIR" ]]; then
+        echo "GIT_WORKTREE_DIR is not set"
+        return 0
+    fi
+    local dirname="${GIT_WORKTREE_DIR}/$1"
+    if [[ -d "${dirname}" ]]; then
+        echo "Directory ${dirname} already exists"
+        return 0
+    fi
+
+    if [[ -z "$2" ]]
+    then
+        git worktree add "${dirname}" master
+    else
+        git worktree add "${dirname}" "$2"
+    fi
+}
+
+# complete all branches for cgw
+_cgw() {
+    local cur="${COMP_WORDS[COMP_CWORD]}"
+    local branches="$(git branch | sed 's/ //g' | sed 's/*//g')"
+    COMPREPLY=( $(compgen -W "${branches}" -- ${cur}) )
+}
+complete -F _cgw cgw
+
+# complete all docker images for dr
+_dr() {
+    local cur="${COMP_WORDS[COMP_CWORD]}"
+    local images="$(docker images | awk '{print $1":"$2}' | sed '1d')"
+    COMPREPLY=( $(compgen -W "${images}" -- ${cur}) )
+}
+
+complete -F _dr dr
 
 function copy() {
     local dirn
@@ -207,6 +231,17 @@ function rga-fzf() {
 	xdg-open "$file"
 }
 
+function help() {
+    echo "fzf-open-alias: open file or directory with fzf"
+    echo "fhd: open directory with fzf in home directory by its name"
+    echo "fhf: open file with fzf in home directory by its name"
+    echo "fhc: open file with fzf in home directory by its content"
+    echo "fcc: open file with fzf in current directory by its content"
+
+    echo "fwd: open directory with fzf in wd records by its name"
+    echo "gw: goto git worktree"
+    echo "cgw: create git worktree"
+}
 
 export EDITOR="nvim"
 
@@ -218,6 +253,3 @@ export QT_SCREEN_SCALE_FACTORS="1.5"
 
 
 eval "$(zoxide init zsh)"
-#eval $(thefuck --alias fu)
-
-#eval $(thefuck --alias)
