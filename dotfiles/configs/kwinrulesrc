@@ -11,13 +11,11 @@ wmclass=alacritty
 wmclassmatch=1
 
 [1]
-Description=Application settings for alacritty
+Description=Settings for copyq copyq
 above=true
-clientmachine=localhost
-desktops=97da89d3-85fd-461f-be5e-8bf9b059eede
-desktopsrule=3
-fullscreenrule=3
-wmclass=alacritty
+aboverule=3
+wmclass=copyq copyq
+wmclasscomplete=true
 wmclassmatch=1
 
 [2]
@@ -56,8 +54,8 @@ maxsizerule=2
 wmclassmatch=1
 
 [General]
-count=2
-rules=1,2
+count=1
+rules=1
 
 [cd0c319b-8ae0-490e-a85b-ac49b2cf5235]
 Description=jetbrains-webstorm 的应用程序设置

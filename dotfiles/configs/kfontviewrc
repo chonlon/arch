@@ -1,0 +1,14 @@
+[KFileDialog Settings]
+detailViewIconSize=16
+
+[KFontInst Preview Settings]
+String=⣀⣰⣀
+
+[MainWindow]
+HDMI-0 Height 2560x1440=1393
+HDMI-0 Width 2560x1440=1430
+HDMI-0 XPosition 2560x1440=9
+HDMI-0 YPosition 2560x1440=41
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABZYAAAVDAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled

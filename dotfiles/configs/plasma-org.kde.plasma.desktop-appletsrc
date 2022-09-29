@@ -1,6 +1,23 @@
 [ActionPlugins][0]
 RightButton;NoModifier=org.kde.contextmenu
-wheel:Vertical;NoModifier=org.kde.switchdesktop
+
+[ActionPlugins][0][RightButton;NoModifier]
+_add panel=true
+_context=true
+_display_settings=true
+_lock_screen=false
+_logout=false
+_run_command=false
+_sep1=true
+_sep2=true
+_sep3=true
+_wallpaper=true
+add widgets=true
+configure=true
+configure shortcuts=false
+edit mode=true
+manage activities=true
+remove=true
 
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
@@ -18,7 +35,7 @@ wallpaperplugin=org.kde.slideshow
 
 [Containments][1][ConfigDialog]
 DialogHeight=2064
-DialogWidth=3840
+DialogWidth=3832
 
 [Containments][1][Configuration]
 PreloadWeight=10
@@ -33,7 +50,7 @@ Image=file:///home/lon/Pictures/976013.jpg
 SlidePaths=/usr/share/wallpapers
 
 [Containments][1][Wallpaper][org.kde.slideshow][General]
-Image=file:///home/lon/Pictures/wallpapers/evening-sky.png
+Image=file:///home/lon/Pictures/wallpapers/976013.jpg
 SlidePaths=/home/lon/Pictures/wallpapers
 UncheckedSlides=file:///home/lon/Pictures/shot/nord-nvim.png,file:///home/lon/Pictures/shot/nord-nvim-coding.png,file:///home/lon/Pictures/wallpapers/nordic-obsession.png,file:///home/lon/Pictures/shots/window.png,file:///home/lon/Pictures/qtile/wallpaper.png,file:///home/lon/Pictures/wallpapers/poster.png
 
