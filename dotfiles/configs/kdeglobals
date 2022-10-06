@@ -141,9 +141,9 @@ History Items[$e]=file:$HOME/Pictures,file:$HOME/Pictures,file:$HOME
 
 [General]
 BrowserApplication=google-chrome.desktop
-ColorSchemeHash=625c32ae46f33771aca7694ab0deae5a44bbf41c
-TerminalApplication=kitty
-TerminalService=kitty.desktop
+ColorSchemeHash=a054744e5da530142f039caa182148b170643d2e
+TerminalApplication=alacritty
+TerminalService=Alacritty.desktop
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
@@ -172,7 +172,7 @@ Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
 Show hidden files=false
-Sort by=Size
+Sort by=Date
 Sort directories first=true
 Sort hidden files last=false
 Sort reversed=false

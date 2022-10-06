@@ -1,7 +1,13 @@
 [Applications][com.uploadedlobster.peek]
 Seen=true
 
+[Applications][google-chrome]
+Seen=true
+
 [Applications][obsidian]
+Seen=true
+
+[Applications][telegramdesktop]
 Seen=true
 
 [Applications][utools]

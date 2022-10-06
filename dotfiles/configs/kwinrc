@@ -31,8 +31,11 @@ krohnkiteEnabled=false
 trackmouseEnabled=true
 
 [Script-bismuth]
-floatingClass=jetbrains-*
+floatingClass=copyq
+keepFloatAbove=false
 maximizeSoleTile=true
+newWindowAsMaster=true
+preventMinimize=true
 screenGapBottom=5
 screenGapLeft=10
 screenGapRight=10
