@@ -2,7 +2,7 @@ sys_apps := "openssh yay"
 
 terminal_apps := "zellij alacritty kitty yakuake neovim vim ranger nnn fzf ripgrep ripgrep-all btop dust htop fd zoxide wget unzip bat exa lsd"
 
-fonts := "noto-fonts-extra noto-fonts-emoji noto-fonts-cjk noto-fonts nerd-fonts-jetbrains-mono nerd-fonts-ibm-plex-mono nerd-fonts-fira-code ttf-sarasa-gothic nerd-fonts-dejavu-sans-mono"
+fonts := "noto-fonts-extra noto-fonts-emoji noto-fonts-cjk noto-fonts nerd-fonts-jetbrains-mono nerd-fonts-ibm-plex-mono nerd-fonts-fira-code ttf-sarasa-gothic nerd-fonts-dejavu-sans-mono ttf-symbola"
 
 input := "fcitx-sogoupinyin fcitx-qt5"
 
@@ -35,6 +35,7 @@ init-pkg:
 install-apps:
   sudo pacman -S {{sys_apps}}
   yay -S {{input}} {{fonts}} {{user_apps}} {{code_apps}} {{terminal_apps}}
+  # yay -R gnu-free-fonts
 
 # init my default ssh
 init-ssh:

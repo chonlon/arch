@@ -1207,6 +1207,7 @@ Theme[$d]
 [KDE]
 AnimationDurationFactor[$d]
 LookAndFeelPackage[$d]
+SingleClick[$d]
 widgetStyle[$d]
 
 [KFileDialog Settings]

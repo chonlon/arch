@@ -32,7 +32,6 @@ trackmouseEnabled=true
 
 [Script-bismuth]
 floatingClass=copyq
-keepFloatAbove=false
 maximizeSoleTile=true
 newWindowAsMaster=true
 preventMinimize=true
@@ -41,6 +40,7 @@ screenGapLeft=10
 screenGapRight=10
 screenGapTop=10
 tileLayoutGap=10
+untileByDragging=false
 
 [Script-krohnkite]
 enableFloatingLayout=true

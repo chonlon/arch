@@ -94,8 +94,8 @@ z4h bindkey redo Alt+/             # redo the last undone command line change
 
 # z4h bindkey z4h-cd-back    Alt+Left   # cd into the previous directory
 # z4h bindkey z4h-cd-forward Alt+Right  # cd into the next directory
-z4h bindkey z4h-cd-up      Alt+Up     # cd into the parent directory
-z4h bindkey z4h-cd-down    Alt+Down   # cd into a child directory
+# z4h bindkey z4h-cd-up      Alt+Up     # cd into the parent directory
+# z4h bindkey z4h-cd-down    Alt+Down   # cd into a child directory
 
 # Autoload functions.
 autoload -Uz zmv
@@ -167,25 +167,30 @@ function gw() {
 function cgw() {
     # create git worktree
     if [[ -z "$1" ]]; then
-        echo "Usage: cgw <dir> <branch>"
+        echo "Usage: cgw <branch> [<dir>]"
         return 0
     fi
     if [[ -z "$GIT_WORKTREE_DIR" ]]; then
         echo "GIT_WORKTREE_DIR is not set"
         return 0
     fi
-    local dirname="${GIT_WORKTREE_DIR}/$1"
-    if [[ -d "${dirname}" ]]; then
-        echo "Directory ${dirname} already exists"
-        return 0
-    fi
+    local branch_name="$1"
+    
 
     if [[ -z "$2" ]]
     then
-        git worktree add "${dirname}" master
+        # get current repo name
+        local repo_name="$(basename $(git rev-parse --show-toplevel))"
+
+        local dirname="${GIT_WORKTREE_DIR}/${repo_name}/${branch_name}"
+        if [[ -d "${dirname}" ]]; then
+            echo "Directory ${dirname} already exists"
+            return 0
+        fi
     else
-        git worktree add "${dirname}" "$2"
+        local dirname="$2"
     fi
+    git worktree add "${dirname}" "${branch_name}"
 }
 
 # complete all branches for cgw
@@ -234,6 +239,33 @@ function rga-fzf() {
 	xdg-open "$file"
 }
 
+
+function no_proxy() {
+    unset http_proxy
+    unset ftp_proxy
+    unset rsync_proxy
+    unset no_proxy
+    unset HTTP_PROXY
+    unset FTP_PROXY
+    unset RSYNC_PROXY
+    unset NO_PROXY
+    unset https_proxy
+    unset HTTPS_PROXY
+}
+
+function set_proxy() {
+    export http_proxy="http://127.0.0.1:7890/"
+    export ftp_proxy="ftp://127.0.0.1:7890/"
+    export rsync_proxy="rsync://127.0.0.1:7890/"
+    export no_proxy="localhost,127.0.0.1,192.168.1.1,::1,*.local"
+    export HTTP_PROXY="http://127.0.0.1:7890/"
+    export FTP_PROXY="ftp://127.0.0.1:7890/"
+    export RSYNC_PROXY="rsync://127.0.0.1:7890/"
+    export NO_PROXY="localhost,127.0.0.1,192.168.1.1,::1,*.local"
+    export https_proxy="http://127.0.0.1:7890/"
+    export HTTPS_PROXY="http://127.0.0.1:7890/"
+}
+
 function help() {
     echo "fzf-open-alias: open file or directory with fzf"
     echo "fhd: open directory with fzf in home directory by its name"
@@ -256,3 +288,14 @@ export QT_SCREEN_SCALE_FACTORS="1.5"
 
 
 eval "$(zoxide init zsh)"
+
+export http_proxy="http://127.0.0.1:7890/"
+export ftp_proxy="ftp://127.0.0.1:7890/"
+export rsync_proxy="rsync://127.0.0.1:7890/"
+export no_proxy="localhost,127.0.0.1,192.168.1.1,::1,*.local"
+export HTTP_PROXY="http://127.0.0.1:7890/"
+export FTP_PROXY="ftp://127.0.0.1:7890/"
+export RSYNC_PROXY="rsync://127.0.0.1:7890/"
+export NO_PROXY="localhost,127.0.0.1,192.168.1.1,::1,*.local"
+export https_proxy="http://127.0.0.1:7890/"
+export HTTPS_PROXY="http://127.0.0.1:7890/"
