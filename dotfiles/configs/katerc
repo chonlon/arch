@@ -143,7 +143,7 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [KTextEditor::Search]
-Search History=direct,directr,ustc
+Search History=readFrom,quo,run-backend,direct,directr,ustc
 
 [Konsole]
 AutoSyncronize=true
@@ -163,7 +163,7 @@ HDMI-0 Width 1920x1080=1918
 HDMI-0 Width 2560x1440=2560
 HDMI-0 Width 2560x1440 HDMI-0=1259
 HDMI-0 Window-Maximized 1920x1080=true
-HDMI-0 Window-Maximized 2560x1440=true
+HDMI-0 Window-Maximized 2560x1440 HDMI-0=true
 
 [UiSettings]
 ColorScheme=Sweet
