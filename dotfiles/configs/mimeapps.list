@@ -1,5 +1,6 @@
 [Added Associations]
-inode/directory=nemo.desktop;
+application/json=org.kde.kate.desktop;firefox.desktop;org.kde.kwrite.desktop;vim.desktop;sublime_text.desktop;visual-studio-code.desktop;nvim.desktop;
+inode/directory=org.kde.dolphin.desktop;nemo.desktop;
 text/rust=nvim.desktop;org.kde.kate.desktop;org.kde.kwrite.desktop;sublime_text.desktop;vim.desktop;visual-studio-code.desktop;
 x-scheme-handler/geo=wheelmap-geo-handler.desktop;
 x-scheme-handler/http=google-chrome.desktop;
@@ -7,20 +8,22 @@ x-scheme-handler/https=google-chrome.desktop;
 x-scheme-handler/tg=userapp-Telegram Desktop-YRHKQ1.desktop;
 
 [Default Applications]
-inode/directory=nemo.desktop;
+application/json=org.kde.kate.desktop;
+inode/directory=org.kde.dolphin.desktop;
 text/html=google-chrome.desktop
 text/rust=nvim.desktop;
 x-scheme-handler/about=google-chrome.desktop
 x-scheme-handler/clash=clash_win.desktop
+x-scheme-handler/corplink=corplink.desktop
+x-scheme-handler/feilian=corplink.desktop
 x-scheme-handler/geo=wheelmap-geo-handler.desktop;
 x-scheme-handler/http=google-chrome.desktop;
 x-scheme-handler/https=google-chrome.desktop;
 x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+x-scheme-handler/logseq=Logseq.desktop
 x-scheme-handler/magnet=Electron.desktop
 x-scheme-handler/mo=Electron.desktop
 x-scheme-handler/motrix=Electron.desktop
 x-scheme-handler/tg=userapp-Telegram Desktop-YRHKQ1.desktop
 x-scheme-handler/thunder=Electron.desktop
 x-scheme-handler/unknown=google-chrome.desktop
-x-scheme-handler/corplink=corplink.desktop
-x-scheme-handler/feilian=corplink.desktop

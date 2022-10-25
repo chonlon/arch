@@ -20,6 +20,9 @@ Name_5=Terminal
 Number=5
 Rows=1
 
+[ModifierOnlyShortcuts]
+Meta=
+
 [NightColor]
 Active=true
 LatitudeAuto=22.2908

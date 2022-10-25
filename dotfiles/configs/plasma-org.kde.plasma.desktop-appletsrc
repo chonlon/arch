@@ -91,6 +91,8 @@ plugin=org.kde.plasma.digitalclock
 
 [Containments][22][Applets][40][Configuration]
 PreloadWeight=100
+popupHeight=650
+popupWidth=572
 
 [Containments][22][Applets][40][Configuration][Appearance]
 dateDisplayFormat=BesideTime
@@ -98,16 +100,6 @@ dateDisplayFormat=BesideTime
 [Containments][22][Applets][40][Configuration][ConfigDialog]
 DialogHeight=1080
 DialogWidth=1440
-
-[Containments][22][Applets][45]
-immutability=1
-plugin=org.kde.plasma.kickoff
-
-[Containments][22][Applets][45][Configuration]
-PreloadWeight=100
-
-[Containments][22][Applets][45][Configuration][General]
-favoritesPortedToKAstats=true
 
 [Containments][22][Applets][47]
 immutability=1
@@ -125,6 +117,41 @@ DialogWidth=1400
 launchers=preferred://browser
 showOnlyCurrentActivity=false
 
+[Containments][22][Applets][51]
+immutability=1
+plugin=org.kde.resourcesMonitor-fork
+
+[Containments][22][Applets][51][Configuration][Appearance]
+fontScale=35
+graphHeight=1
+graphWidth=1
+
+[Containments][22][Applets][51][Configuration][ConfigDialog]
+DialogHeight=780
+DialogWidth=1040
+
+[Containments][22][Applets][51][Configuration][General]
+memoryInPercent=true
+showNetMonitor=true
+
+[Containments][22][Applets][53]
+immutability=1
+plugin=org.kde.plasma.kickerdash
+
+[Containments][22][Applets][53][Configuration]
+PreloadWeight=100
+popupHeight=742
+popupWidth=953
+
+[Containments][22][Applets][53][Configuration][ConfigDialog]
+DialogHeight=780
+DialogWidth=1040
+
+[Containments][22][Applets][53][Configuration][General]
+favoritesPortedToKAstats=true
+icon=appium-desktop
+systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
+
 [Containments][22][ConfigDialog]
 DialogHeight=173
 DialogWidth=3840
@@ -133,7 +160,7 @@ DialogWidth=3840
 PreloadWeight=18
 
 [Containments][22][General]
-AppletOrder=23;39;47;49;24;40;45
+AppletOrder=23;39;51;47;49;24;40;53
 
 [Containments][25]
 activityId=
@@ -142,6 +169,8 @@ immutability=1
 lastScreen=0
 location=3
 plugin=org.kde.plasma.private.systemtray
+popupHeight=624
+popupWidth=624
 wallpaperplugin=org.kde.image
 
 [Containments][25][Applets][26][Configuration]
@@ -203,7 +232,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][25][Applets][36][Configuration]
-PreloadWeight=78
+PreloadWeight=93
 
 [Containments][25][Applets][46]
 immutability=1

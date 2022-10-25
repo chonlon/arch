@@ -1,3 +1,15 @@
+[file:///home/lon/.logseq/settings/logseq-move-block.json]
+Bookmarks=
+Checksum=409b9456a7354b60647cb0aa6c82a34e7ccc3d1a
+Encoding=UTF-8
+Highlighting=JSON
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=JSON
+Mode Set By User=false
+Time=2022,10,25,2,42,41.582
+URL=file:///home/lon/.logseq/settings/logseq-move-block.json
+
 [file:///home/lon/1_code/.worktree/kernel-clean/node_modules/.pnpm/registry.npmmirror.com+three@0.115.0/node_modules/three/examples/jsm/lines/Line2.d.ts]
 Bookmarks=
 Checksum=3bc78d33d629479bfd8ba7983dc620c9ea411f09
@@ -22,18 +34,6 @@ Mode Set By User=false
 Time=2022,9,28,6,33,0.015
 URL=file:///home/lon/1_code/.worktree/kernel-clean/node_modules/.pnpm/registry.npmmirror.com+three@0.115.0/node_modules/three/examples/jsm/lines/LineSegments2.js
 
-[file:///home/lon/3_lon/Small-Test-Projects/python/cli-tools/fzf-open.py]
-Bookmarks=
-Checksum=29bb00c94c2fb0492713af53a5e9a5f39f14df4c
-Encoding=UTF-8
-Highlighting=Python
-Highlighting Set By User=false
-Indentation Mode=python
-Mode=Python
-Mode Set By User=false
-Time=2022,8,30,3,33,10.401
-URL=file:///home/lon/3_lon/Small-Test-Projects/python/cli-tools/fzf-open.py
-
 [file:///home/lon/3_lon/arch/Justfile]
 Bookmarks=
 Checksum=2dc1207ebd2fb5a45d5084c4989a0f2602f13f91
@@ -45,51 +45,3 @@ Mode=Normal
 Mode Set By User=false
 Time=2022,9,29,3,1,3.46
 URL=file:///home/lon/3_lon/arch/Justfile
-
-[file:///home/lon/3_lon/arch/dotfiles/configs/clash/profiles/1659331066410.yml]
-Bookmarks=
-Checksum=869031601afc088338c999ae5a6dec710a98a000
-Encoding=UTF-8
-Highlighting=YAML
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=YAML
-Mode Set By User=false
-Time=2022,9,22,3,3,26.449
-URL=file:///home/lon/3_lon/arch/dotfiles/configs/clash/profiles/1659331066410.yml
-
-[file:///home/lon/4_test/1.cpp]
-Bookmarks=
-Checksum=75dcdfdaca331c3579cb177be1d1dc892dfac659
-Encoding=UTF-8
-Highlighting=C++
-Highlighting Set By User=false
-Indentation Mode=cstyle
-Mode=C++
-Mode Set By User=false
-Time=2022,9,5,3,35,46.422
-URL=file:///home/lon/4_test/1.cpp
-
-[file:///mnt/2_modules/3d/stp/FINAL BUGGY.stp]
-Bookmarks=
-Checksum=f7f435047fe8cfc5e62adb360b0e6a540189b8c6
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2022,9,8,8,34,30.661
-URL=file:///mnt/2_modules/3d/stp/FINAL BUGGY.stp
-
-[file:///mnt/2_modules/3d/stp/装配体方块-solidworks.STEP]
-Bookmarks=
-Checksum=6a93f1635a0d466a93965589f4537098f2c133b0
-Encoding=GB18030
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2022,8,31,5,30,41.825
-URL=file:///mnt/2_modules/3d/stp/装配体方块-solidworks.STEP
