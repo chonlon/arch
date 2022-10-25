@@ -59,6 +59,8 @@ plugin=org.kde.plasma.digitalclock
 
 [Containments][22][Applets][40][Configuration]
 PreloadWeight=100
+popupHeight=650
+popupWidth=572
 
 [Containments][22][Applets][40][Configuration][Appearance]
 dateDisplayFormat=BesideTime
@@ -82,6 +84,41 @@ DialogWidth=1400
 [Containments][22][Applets][49][Configuration][General]
 launchers=preferred://browser
 showOnlyCurrentActivity=false
+
+[Containments][22][Applets][51]
+immutability=1
+plugin=org.kde.resourcesMonitor-fork
+
+[Containments][22][Applets][51][Configuration][Appearance]
+fontScale=35
+graphHeight=1
+graphWidth=1
+
+[Containments][22][Applets][51][Configuration][ConfigDialog]
+DialogHeight=780
+DialogWidth=1040
+
+[Containments][22][Applets][51][Configuration][General]
+memoryInPercent=true
+showNetMonitor=true
+
+[Containments][22][Applets][53]
+immutability=1
+plugin=org.kde.plasma.kickerdash
+
+[Containments][22][Applets][53][Configuration]
+PreloadWeight=100
+popupHeight=742
+popupWidth=953
+
+[Containments][22][Applets][53][Configuration][ConfigDialog]
+DialogHeight=780
+DialogWidth=1040
+
+[Containments][22][Applets][53][Configuration][General]
+favoritesPortedToKAstats=true
+icon=appium-desktop
+systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 
 [Containments][22][Applets][54]
 immutability=1
@@ -128,6 +165,8 @@ immutability=1
 lastScreen=0
 location=3
 plugin=org.kde.plasma.private.systemtray
+popupHeight=624
+popupWidth=624
 popupHeight=672
 popupWidth=672
 wallpaperplugin=org.kde.image
