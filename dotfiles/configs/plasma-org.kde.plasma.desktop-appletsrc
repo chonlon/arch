@@ -101,10 +101,6 @@ dateDisplayFormat=BesideTime
 DialogHeight=1080
 DialogWidth=1440
 
-[Containments][22][Applets][47]
-immutability=1
-plugin=org.kde.plasma.pager
-
 [Containments][22][Applets][49]
 immutability=1
 plugin=org.kde.plasma.icontasks
@@ -114,8 +110,8 @@ DialogHeight=1050
 DialogWidth=1400
 
 [Containments][22][Applets][49][Configuration][General]
-launchers=preferred://browser
-showOnlyCurrentActivity=false
+launchers=preferred://browser,applications:logseq.desktop,applications:kitty.desktop,applications:Alacritty.desktop
+showOnlyCurrentDesktop=false
 
 [Containments][22][Applets][51]
 immutability=1
@@ -152,15 +148,23 @@ favoritesPortedToKAstats=true
 icon=appium-desktop
 systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 
+[Containments][22][Applets][55]
+immutability=1
+plugin=org.kde.plasma.pager
+
+[Containments][22][Applets][55][Configuration][ConfigDialog]
+DialogHeight=780
+DialogWidth=1040
+
 [Containments][22][ConfigDialog]
-DialogHeight=173
+DialogHeight=102
 DialogWidth=3840
 
 [Containments][22][Configuration]
 PreloadWeight=18
 
 [Containments][22][General]
-AppletOrder=23;39;51;47;49;24;40;53
+AppletOrder=23;39;51;55;49;24;40;53
 
 [Containments][25]
 activityId=
@@ -259,6 +263,7 @@ PreloadWeight=18
 extraItems=org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.plasma.nightcolorcontrol,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.devicenotifier
 hiddenItems=CopyQ_copyq,CopyQ,org.kde.plasma.nightcolorcontrol,org.kde.plasma.devicenotifier
 knownItems=org.kde.plasma.networkmanagement,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.vault,org.kde.plasma.nightcolorcontrol,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.battery,org.kde.plasma.notifications
+scaleIconsToFit=true
 shownItems=org.kde.plasma.volume,Yakuake
 
 [ScreenMapping]

@@ -37,7 +37,6 @@ trackmouseEnabled=true
 floatingClass=copyq
 maximizeSoleTile=true
 newWindowAsMaster=true
-preventMinimize=true
 screenGapBottom=5
 screenGapLeft=10
 screenGapRight=10
@@ -68,7 +67,6 @@ LayoutName=com.github.vinceliuice.Layan
 LayoutName=flipswitch
 
 [org.kde.kdecoration2]
-BorderSize=Tiny
 BorderSizeAuto=false
 library=org.kde.bismuth.decoration
 theme=Bismuth
