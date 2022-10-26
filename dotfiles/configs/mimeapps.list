@@ -24,3 +24,6 @@ x-scheme-handler/thunder=Electron.desktop
 x-scheme-handler/unknown=google-chrome.desktop
 x-scheme-handler/corplink=corplink.desktop
 x-scheme-handler/feilian=corplink.desktop
+x-scheme-handler/obsidian=obsidian.desktop
+x-scheme-handler/logseq=Logseq.desktop
+x-scheme-handler/jetbrains-gateway=jetbrains-gateway.desktop
