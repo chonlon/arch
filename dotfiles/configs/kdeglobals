@@ -141,7 +141,7 @@ History Items[$e]=file:$HOME/Pictures,file:$HOME/Pictures,file:$HOME
 
 [General]
 BrowserApplication=google-chrome.desktop
-ColorSchemeHash=a054744e5da530142f039caa182148b170643d2e
+ColorSchemeHash=625c32ae46f33771aca7694ab0deae5a44bbf41c
 TerminalApplication=alacritty
 TerminalService=Alacritty.desktop
 XftAntialias=true
@@ -180,8 +180,8 @@ Speedbar Width=316
 View Style=DetailTree
 
 [KScreen]
-ScaleFactor=1.25
-ScreenScaleFactors=DVI-D-1=1.25;HDMI-1=1.25;
+ScaleFactor=1.5
+ScreenScaleFactors=DVI-D-0=1.5;HDMI-0=1.5;
 
 [WM]
 activeBackground=54,56,62
