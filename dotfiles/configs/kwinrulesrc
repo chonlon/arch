@@ -1,6 +1,13 @@
 [$Version]
 update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
 
+[0327537f-db26-43d1-bcbc-82e62c8cc289]
+Description=chrome
+desktops=\\0
+desktopsrule=3
+wmclass=google-chrome
+wmclassmatch=1
+
 [068e4dc8-ab04-4c53-b0ca-8cd30b57d779]
 Description=Application settings for alacritty
 clientmachine=localhost
@@ -54,8 +61,8 @@ maxsizerule=2
 wmclassmatch=1
 
 [General]
-count=1
-rules=1
+count=4
+rules=1,fef87b67-26da-4416-b6e3-9e43fb6bc26a,0327537f-db26-43d1-bcbc-82e62c8cc289,d082c868-65c5-47ba-9409-28afc567daf4
 
 [cd0c319b-8ae0-490e-a85b-ac49b2cf5235]
 Description=jetbrains-webstorm 的应用程序设置
@@ -68,5 +75,23 @@ wmclassmatch=1
 [ce660cbd-387d-4339-828d-ab3f11f61253]
 Description=Settings for obsidian obsidian
 wmclass=obsidian obsidian
+wmclasscomplete=true
+wmclassmatch=1
+
+[d082c868-65c5-47ba-9409-28afc567daf4]
+Description=logseq
+desktops=\\0
+desktopsrule=3
+wmclass=logseq
+wmclassmatch=1
+
+[fef87b67-26da-4416-b6e3-9e43fb6bc26a]
+Description=kitty
+activity=e2bae053-8399-4a2c-b571-abbc7599daf6
+activityrule=3
+desktops=\\0
+desktopsrule=3
+types=1
+wmclass=kitty
 wmclasscomplete=true
 wmclassmatch=1

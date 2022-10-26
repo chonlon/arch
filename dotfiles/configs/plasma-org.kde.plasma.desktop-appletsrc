@@ -69,10 +69,6 @@ dateDisplayFormat=BesideTime
 DialogHeight=1080
 DialogWidth=1440
 
-[Containments][22][Applets][47]
-immutability=1
-plugin=org.kde.plasma.pager
-
 [Containments][22][Applets][49]
 immutability=1
 plugin=org.kde.plasma.icontasks
@@ -82,8 +78,8 @@ DialogHeight=1050
 DialogWidth=1400
 
 [Containments][22][Applets][49][Configuration][General]
-launchers=preferred://browser
-showOnlyCurrentActivity=false
+launchers=preferred://browser,applications:logseq.desktop,applications:kitty.desktop,applications:Alacritty.desktop
+showOnlyCurrentDesktop=false
 
 [Containments][22][Applets][51]
 immutability=1
