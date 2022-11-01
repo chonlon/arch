@@ -1,10 +1,14 @@
+[General]
+FreeFloating=true
+RetainPriorSearch=false
+
 [PlasmaRunnerManager]
 migrated=true
 
 [Plugins]
 CharacterRunnerEnabled=false
 DictionaryEnabled=false
-PowerDevilEnabled=true
+PowerDevilEnabled=false
 appstreamEnabled=false
 baloosearchEnabled=false
 bookmarksEnabled=false
@@ -15,18 +19,21 @@ desktopsessionsEnabled=false
 helprunnerEnabled=false
 katesessionsEnabled=false
 konsoleprofilesEnabled=false
-krunner_killEnabled=true
+krunner_killEnabled=false
 krunner_spellcheckEnabled=false
+krunner_systemsettingsEnabled=false
+kwinEnabled=false
 locationsEnabled=false
 org.kde.activities2Enabled=false
 org.kde.datetimeEnabled=false
+org.kde.windowedwidgetsEnabled=false
 placesEnabled=false
-plasma-desktopEnabled=false
+plasma-desktopEnabled=true
 plasma-runner-browsertabsEnabled=false
 recentdocumentsEnabled=false
 shellEnabled=false
 unitconverterEnabled=false
-webshortcutsEnabled=true
+webshortcutsEnabled=false
 
 [Runners][Dictionary]
 triggerWord=fy

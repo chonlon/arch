@@ -1,6 +1,7 @@
 [KTextEditor Document]
 Allow End of Line Detection=true
 Auto Detect Indent=true
+Auto Reload If State Is In Version Control=true
 Auto Save=false
 Auto Save Interval=0
 Auto Save On Focus Out=false
@@ -75,6 +76,7 @@ Input Mode=0
 Keyword Completion=true
 Line Modification=true
 Line Numbers=true
+Max Clipboard History Entries=20
 Maximum Search History Size=100
 Mouse Paste At Cursor Position=false
 Multiple Cursor Modifier=134217728
@@ -86,13 +88,21 @@ Scroll Bar MiniMap=true
 Scroll Bar Preview=true
 Scroll Past End=false
 Search/Replace Flags=140
+Shoe Line Ending Type in Statusbar=false
 Show Documentation With Completion=true
+Show File Encoding=true
 Show Focus Frame Around Editor=true
 Show Folding Icons On Hover Only=true
 Show Line Count=false
 Show Scrollbars=0
+Show Statusbar Dictionary=true
+Show Statusbar Highlighting Mode=true
+Show Statusbar Input Mode=true
+Show Statusbar Line Column=true
+Show Statusbar Tab Settings=true
 Show Word Count=false
 Smart Copy Cut=true
+Statusbar Line Column Compact Mode=true
 Text Drag And Drop=true
 User Sets Of Chars To Enclose Selection=
 Vi Input Mode Steal Keys=false
@@ -102,22 +112,36 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [MainWindow]
+HDMI-0=HDMI-0
 HDMI-0 Height 2560x1440=1375
+HDMI-0 Height 2560x1440 HDMI-0=1393
 HDMI-0 Width 2560x1440=1295
+HDMI-0 Width 2560x1440 HDMI-0=1265
 HDMI-0 XPosition 1920x1080=690
 HDMI-0 XPosition 2560x1440=4
+HDMI-0 XPosition 2560x1440 HDMI-0=9
 HDMI-0 YPosition 1920x1080=467
 HDMI-0 YPosition 2560x1440=61
+HDMI-0 YPosition 2560x1440 HDMI-0=41
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABQ8AAAUxAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABPEAAAVDAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 StatusBar=Disabled
 ToolBarsMovable=Disabled
-splitterSizes=863,431
+splitterSizes=843,421
+
+[Open-with settings]
+CompletionMode=1
+History=fire
 
 [Viewer]
+HDMI-0=HDMI-0
+HDMI-0 Height 2560x1440 HDMI-0=309
+HDMI-0 Width 2560x1440 HDMI-0=363
 HDMI-0 Window-Maximized 1920x1080=true
 HDMI-0 XPosition 1920x1080=849
+HDMI-0 XPosition 2560x1440 HDMI-0=9
 HDMI-0 YPosition 1920x1080=515
+HDMI-0 YPosition 2560x1440 HDMI-0=41
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAPWAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAAWsAAAEHAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled

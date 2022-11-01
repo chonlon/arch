@@ -133,7 +133,7 @@ Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
 Show hidden files=false
-Sort by=Size
+Sort by=Date
 Sort directories first=true
 Sort hidden files last=false
 Sort reversed=false
@@ -141,8 +141,8 @@ Speedbar Width=316
 View Style=DetailTree
 
 [KScreen]
-ScaleFactor=1.5
-ScreenScaleFactors=DVI-D-0=1.5;HDMI-0=1.5;DP-0=1.5;DP-1=1.5;
+ScaleFactor=1.25
+ScreenScaleFactors=DVI-D-0=1.25;HDMI-0=1.25;DP-0=1.25;DP-1=1.25;
 
 [WM]
 activeBackground=47,52,63

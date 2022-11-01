@@ -12,16 +12,22 @@ Id_2=f4dc9a45-5cb6-4524-8be1-b0acb3953fb6
 Id_3=c757cf90-4977-4b48-aa95-f195610e0d38
 Id_4=9c1dac31-5be7-4501-b2f7-06b1f4e50b10
 Id_5=97da89d3-85fd-461f-be5e-8bf9b059eede
-Name_1=浏览
-Name_2=Work1
-Name_3=Work2
-Name_4=Note
-Name_5=Terminal
-Number=5
+Id_6=3c6411cd-ee6c-4ead-8104-7d1a1581c75f
+Name_1=1
+Name_2=2
+Name_3=3
+Name_4=4
+Name_5=5
+Name_6=cargo
+Number=6
 Rows=1
 
 [ModifierOnlyShortcuts]
 Meta=
+
+[MouseBindings]
+CommandAll3=Minimize
+CommandAllWheel=Maximize/Restore
 
 [NightColor]
 Active=true
@@ -34,9 +40,12 @@ krohnkiteEnabled=false
 trackmouseEnabled=true
 
 [Script-bismuth]
+enableQuarterLayout=true
 floatingClass=copyq
 maximizeSoleTile=true
+monocleMaximize=false
 newWindowAsMaster=true
+preventMinimize=true
 screenGapBottom=5
 screenGapLeft=10
 screenGapRight=10
@@ -65,6 +74,13 @@ LayoutName=com.github.vinceliuice.Layan
 
 [TabBoxAlternative]
 LayoutName=flipswitch
+
+[Windows]
+ActivationDesktopPolicy=BringToCurrentDesktop
+DelayFocusInterval=0
+FocusPolicy=FocusFollowsMouse
+FocusStealingPreventionLevel=3
+HideUtilityWindowsForInactive=false
 
 [org.kde.kdecoration2]
 BorderSizeAuto=false

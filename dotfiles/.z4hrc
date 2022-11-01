@@ -139,6 +139,7 @@ alias pycharm='f() { pycharm $1 1>>/dev/null 2>>/dev/null & }; f'
 alias webstorm='f() { webstorm $@ 1>>/dev/null 2>>/dev/null & }; f'
 alias kate='f() { kate $@ 1>>/dev/null 2>>/dev/null }; f'
 alias ze='f() { zellij -l compact $@ }; f'
+alias za='f() { zellij -l compact $@ attach }; f'
 alias dolphin='f() { dolphin $@ 1>>/dev/null 2>>/dev/null }; f'
 alias fzf-open-alias='f() {eval "$(fzf-open $@)"}; f'
 alias fhd='fzf-open-alias "$HOME" -t d'
@@ -147,6 +148,8 @@ alias fhc='f() {eval "$(fzf-open -c $@ $HOME)"}; f'
 alias fcc='f() {eval "$(fzf-open -c $@)"}; f'
 alias fcf='fzf-open-alias'
 alias fcd='fzf-open-alias -t d'
+alias d=dolphin
+alias e=$EDITOR
 
 function fz() {
     local dirnamev="$(zoxide query -l | awk '{print $1}' | tr '\n' ' ')"
@@ -278,7 +281,7 @@ function help() {
     echo "cgw: create git worktree"
 }
 
-export EDITOR="nvim"
+export EDITOR="kate"
 
 # Set shell options: http://zsh.sourceforge.net/Doc/Release/Options.html.
 setopt glob_dots     # no special treatment for file names with a leading dot
